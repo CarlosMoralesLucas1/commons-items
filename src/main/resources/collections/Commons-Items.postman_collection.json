@@ -1,0 +1,178 @@
+{
+	"info": {
+		"_postman_id": "92f77344-5ff4-4462-b847-094cf975260c",
+		"name": "Commons-Items",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15548902"
+	},
+	"item": [
+		{
+			"name": "Test #1 - Retrieve Item",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"date\":\"2020-06-14-10.00.00\",\"productId\":35455,\"brandId\":1}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/items",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test #2 - Retrieve Item",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"date\":\"2020-06-14-16.00.00\",\"productId\":35455,\"brandId\":1}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/items",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test #3 - Retrieve Item",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"date\":\"2020-06-14-21.00.00\",\"productId\":35455,\"brandId\":1}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/items",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test #4- Retrieve Item",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"date\":\"2020-06-15-10.00.00\",\"productId\":35455,\"brandId\":1}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/items",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test #5 - Retrieve Item",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"date\":\"2020-06-16-21.00.00\",\"productId\":35455,\"brandId\":1}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/items",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test #6 - Retrieve Item (No content)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"date\":\"2020-03-13-8.00.00\",\"productId\":35455,\"brandId\":1}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/items",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"items"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
